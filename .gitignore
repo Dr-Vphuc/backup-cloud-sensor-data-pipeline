@@ -1,0 +1,30 @@
+# Local-only material: original files with credentials, course slide template
+_private/
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data and model artifacts
+data/
+*.parquet
+*.keras
+*.h5
+
+# Spark runtime
+spark-warehouse/
+metastore_db/
+derby.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
